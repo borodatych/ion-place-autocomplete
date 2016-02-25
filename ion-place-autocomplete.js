@@ -31,9 +31,9 @@ placeTools.directive('ionGooglePlace', [
 
                     scope.selectLocation = function(location) {
                         scope.dropDownActive = false;
-                        scope.searchQuery = location.description;
+                        ///scope.searchQuery = location.description;///Не вижу смысла
                         if (scope.locationChanged) {
-                            scope.locationChanged()(location.description);
+                            scope.locationChanged()(location);///Позволим пользователю самому собрать адрес в колбэке, используя terms
                         }
                     };
                     if (!scope.radius) {
