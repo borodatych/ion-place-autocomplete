@@ -1,6 +1,6 @@
 # Google Places based autocomplete directive for Ionic framework
 
-by [http://devfanatic.com](http://devfanatic.com)
+by [http://demka.org](http://demka.org)
 
 How to use:
 
@@ -14,4 +14,4 @@ How to use:
 <ion-google-place placeholder="Your address" ng-model="yourModel" location-changed="yourLocationChangeCallback"/>
 ```
 
-## [Demo](http://codepen.io/ivanthecrazy/pen/vNaLJx)
+## [Demo](http://codepen.io/borodatych/pen/yJzKjb)
